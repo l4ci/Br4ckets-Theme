@@ -1,6 +1,6 @@
 #Br4ckets Theme
 
-A tmTheme inspired by the [Brackets](http://brackets.io/index_de.html) Editor Default Color Scheme
+A Sublime Text 2 Theme inspired by the [Brackets](http://brackets.io/index_de.html) Editor Default Color Scheme. It should work in any Editor that works with TextMate .tmtheme files.
 
 ## Take a look!
 
@@ -22,4 +22,4 @@ The theme has been designed to be language independent and should look great wit
 However, if you find this isn't the case, just send me some sample code and I'll try to fix it!
 
 ## The Future?
-I may be releasing other variations of this theme and will certainly be adding support for other more text editors/IDEs.
+I may be releasing other variations of this theme or slightly color changes.
