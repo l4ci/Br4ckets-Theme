@@ -13,6 +13,7 @@ A Sublime Text 2 Theme inspired by the [Brackets](http://brackets.io/) Editor De
 ## Runs best with
 * Font: [Source Code Pro](https://github.com/adobe/source-code-pro)
 * Sublime Settings:
+
 		{
 			"color_scheme": "Packages/Color Scheme - Default/Br4ckets (Night).tmtheme",
 			"font_face": "Source Code Pro",
