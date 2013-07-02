@@ -1,14 +1,26 @@
 #Br4ckets Theme
 
-A Sublime Text 2 Theme inspired by the [Brackets](http://brackets.io/index_de.html) Editor Default Color Scheme. It should work in any Editor that works with TextMate .tmtheme files.
+A Sublime Text 2 Theme inspired by the [Brackets](http://brackets.io/) Editor Default Color Scheme. It should work in any Editor that works with TextMate .tmtheme files.
 
 ## Take a look!
 
-###  Br4ckets Night
-![ Br4ckets Night](https://github.com/l4ci/Br4ckets-Theme/raw/master/Images/Br4ckets-Night.jpg)
-
 ###  Br4ckets Day
-![ Br4ckets Day](https://github.com/l4ci/Br4ckets-Theme/raw/master/Images/Br4ckets-Day.jpg)
+![ Br4ckets Day](https://github.com/l4ci/Br4ckets-Theme/raw/master/Images/Br4ckets-Day.png)
+
+###  Br4ckets Night
+![ Br4ckets Night](https://github.com/l4ci/Br4ckets-Theme/raw/master/Images/Br4ckets-Night.png)
+
+## Runs best with
+* Font: [Source Code Pro](https://github.com/adobe/source-code-pro)
+* Sublime Settings:
+		{
+			"color_scheme": "Packages/Color Scheme - Default/Br4ckets (Night).tmtheme",
+			"font_face": "Source Code Pro",
+			"font_size": 13,
+			"line_padding_bottom": 2,
+			"line_padding_top": 2,
+			"highlight_line": true
+		}
 
 ## Supported Editors
 * TextMate

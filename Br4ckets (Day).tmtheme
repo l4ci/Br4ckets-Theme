@@ -23,7 +23,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#f8f8f8</string>
+				<string>#f6f6f6</string>
 				<key>caret</key>
 				<string>#000000</string>
 				<key>foreground</key>
@@ -31,13 +31,24 @@
 				<key>invisibles</key>
 				<string>#535353</string>
 				<key>lineHighlight</key>
-				<string>#ccc</string>
+				<string>#e2eefd</string>
 				<key>selection</key>
 				<string>#d2dcf8</string>
 				<key>findHighlight</key>
 				<string>#d2dcf8</string>
 				<key>inactiveSelection</key>
-				<string>#ccc</string>
+				<string>#d0d0d0</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Basic</string>
+			<key>scope</key>
+			<string>text.html.basic</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#414141</string>
 			</dict>
 		</dict>
 		<dict>
@@ -48,7 +59,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#75715E</string>
+				<string>#818181</string>
 			</dict>
 		</dict>
 		<dict>
@@ -305,15 +316,24 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>HTML: Doctype, Style, Script</string>
+			<string>Style, Script</string>
 			<key>scope</key>
-			<string>entity.name.tag.doctype.html, meta.tag.sgml.html, entity.name.tag.script.htmlstring.quoted.double.doctype.identifiers-and-DTDs.html,source.css.embedded.html string.quoted.double.html</string>
+			<string>meta.tag.sgml.html, entity.name.tag.script.htmlstring.quoted.double.doctype.identifiers-and-DTDs.html,source.css.embedded.html string.quoted.double.html</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
 				<key>foreground</key>
 				<string>#446fbd</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>HTML: Doctype</string>
+			<key>scope</key>
+			<string>entity.name.tag.doctype.html</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#414141</string>
 			</dict>
 		</dict>
 	</array>
