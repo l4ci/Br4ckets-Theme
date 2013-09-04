@@ -336,6 +336,29 @@
 				<string>#414141</string>
 			</dict>
 		</dict>
+		<!-- DIFF Files -->
+    <dict>
+        <key>name</key>
+        <string>DIFF Deleted</string>
+        <key>scope</key>
+        <string>markup.deleted</string>
+        <key>settings</key>
+        <dict>
+            <key>foreground</key>
+            <string>#d33682</string>
+        </dict>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>DIFF Inserted</string>
+        <key>scope</key>
+        <string>markup.inserted</string>
+        <key>settings</key>
+        <dict>
+            <key>foreground</key>
+            <string>#738d00</string>
+        </dict>
+    </dict>
 	</array>
 </dict>
 </plist>

@@ -25,19 +25,30 @@
 				<key>background</key>
 				<string>#272822</string>
 				<key>caret</key>
-				<string>#FFFFFF</string>
+				<string>#ffffff</string>
 				<key>foreground</key>
 				<string>#F8F8F2</string>
 				<key>invisibles</key>
 				<string>#F8F8F2</string>
 				<key>lineHighlight</key>
-				<string>#ccc</string>
+				<string>#4b4a4a</string>
 				<key>selection</key>
-				<string>#d2dcf8</string>
+				<string>#515660</string>
 				<key>findHighlight</key>
 				<string>#d2dcf8</string>
 				<key>inactiveSelection</key>
-				<string>#ccc</string>
+				<string>#31343a</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Basic</string>
+			<key>scope</key>
+			<string>text.html.basic</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F8F8F2</string>
 			</dict>
 		</dict>
 		<dict>
@@ -316,6 +327,29 @@
 				<string>#5c87cf</string>
 			</dict>
 		</dict>
+		<!-- DIFF Files -->
+    <dict>
+        <key>name</key>
+        <string>DIFF Deleted</string>
+        <key>scope</key>
+        <string>markup.deleted</string>
+        <key>settings</key>
+        <dict>
+            <key>foreground</key>
+            <string>#dd4590</string>
+        </dict>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>DIFF Inserted</string>
+        <key>scope</key>
+        <string>markup.inserted</string>
+        <key>settings</key>
+        <dict>
+            <key>foreground</key>
+            <string>#8ea812</string>
+        </dict>
+    </dict>
 	</array>
 </dict>
 </plist>
