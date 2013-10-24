@@ -359,6 +359,193 @@
             <string>#738d00</string>
         </dict>
     </dict>
+    <!-- Markdown -->
+    <dict>
+        <key>name</key>
+        <string>Sections</string>
+        <key>scope</key>
+        <string>entity.name.section,entity.name.section.markdown</string>
+        <key>settings</key>
+        <dict>
+            <key>fontStyle</key>
+            <string>bold</string>
+            <key>foreground</key>
+            <string>#333333</string>
+        </dict>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>HTML: Tags</string>
+        <key>scope</key>
+        <string>text.html.markdown entity.name.tag,text.html.markdown punctuation.definition.tag.html</string>
+        <key>settings</key>
+        <dict>
+            <key>foreground</key>
+            <string>#AAAAAA</string>
+        </dict>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>HTML: Tags</string>
+        <key>scope</key>
+        <string>meta.disable-markdown</string>
+        <key>settings</key>
+        <dict>
+            <key>foreground</key>
+            <string>#AAAAAA</string>
+        </dict>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>HTML: Attribute Names</string>
+        <key>scope</key>
+        <string>entity.other.attribute-name, text.html.markdown meta.disable-markdown meta.tag.block.any.html string.quoted.double.html, text.html.markdown meta.disable-markdown meta.tag.block.any.html string.quoted.double.html punctuation.definition</string>
+        <key>settings</key>
+        <dict>
+            <key>fontStyle</key>
+            <string></string>
+            <key>foreground</key>
+            <string>#999999</string>
+        </dict>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>Markup: Emphasis</string>
+        <key>scope</key>
+        <string>markup.italic, markup.italic.markdown</string>
+        <key>settings</key>
+        <dict>
+            <key>fontStyle</key>
+            <string>italic</string>
+            <key>foreground</key>
+            <string>#777777</string>
+            <key>background</key>
+            <string>#E8E8E8</string>
+        </dict>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>Markdown: Link</string>
+        <key>scope</key>
+        <string>string.other.link.title.markdown,string.other.link.description.markdown</string>
+        <key>settings</key>
+        <dict>
+            <key>foreground</key>
+            <string>#333333</string>
+            <key>background</key>
+            <string>#DDDDDD00</string>
+        </dict>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>Markdown: Punctuation</string>
+        <key>scope</key>
+        <string>punctuation.definition.metadata.markdown,punctuation.definition.string.begin.markdown, punctuation.definition.string.end.markdown, punctuation.definition.constant.markdown, punctuation.separator.key-value.markdown, punctuation.definition.constant.begin.markdown, punctuation.definition.constant.end.markdown,punctuation.definition.bold.markdown, punctuation.definition.italic.markdown, punctuation.definition.heading.markdown</string>
+        <key>settings</key>
+        <dict>
+            <key>foreground</key>
+            <string>#AAAAAA</string>
+            <key>background</key>
+            <string>#EEEEEE00</string>
+        </dict>
+    </dict>
+
+    <dict>
+        <key>name</key>
+        <string>Markdown: Punctuation</string>
+        <key>scope</key>
+        <string>markup.list.unnumbered.markdown meta.paragraph.list.markdown, markup.list.unnumbered.markdown punctuation.definition.list_item.markdown, markup.list.numbered.markdown, markup.list.numbered.markdown meta.paragraph.list.markdown, markup.list.numbered.markdown punctuation.definition.list_item.markdown</string>
+        <key>settings</key>
+        <dict>
+            <key>foreground</key>
+            <string>#666666</string>
+            <key>background</key>
+            <string>#EEEEEE00</string>
+        </dict>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>Markup: Strong</string>
+        <key>scope</key>
+        <string>markup.bold, markup.bold.markdown</string>
+        <key>settings</key>
+        <dict>
+            <key>fontStyle</key>
+            <string>bold</string>
+            <key>foreground</key>
+            <string>#555555</string>
+        </dict>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>Markup: Underline</string>
+        <key>scope</key>
+        <string>markup.underline,markup.underline.link.markdown,constant.other.reference.link.markdown,meta.image.reference.markdown</string>
+        <key>settings</key>
+        <dict>
+            <key>foreground</key>
+            <string>#AAAAAA</string>
+        </dict>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>Markdown Meta</string>
+        <key>scope</key>
+        <string>meta.header.multimarkdown,keyword.other.multimarkdown,string.unquoted.multimarkdown,punctuation.separator.key-value.multimarkdown</string>
+        <key>settings</key>
+        <dict>
+            <key>background</key>
+            <string>#DDDDDD</string>
+            <key>foreground</key>
+            <string>#BBBBBB</string>
+        </dict>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>Markdown separator</string>
+        <key>scope</key>
+        <string>markup.raw.block.markdown</string>
+        <key>settings</key>
+        <dict>
+            <key>background</key>
+            <string>#dedede</string>
+            <key>foreground</key>
+            <string>#555555</string>
+        </dict>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>Blockquote</string>
+        <key>scope</key>
+        <string>markup.quote.markdown</string>
+        <key>settings</key>
+        <dict>
+            <key>foreground</key>
+            <string>#777777</string>
+        </dict>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>Blockquote punctuation</string>
+        <key>scope</key>
+        <string>punctuation.definition.blockquote.markdown</string>
+        <key>settings</key>
+        <dict>
+            <key>foreground</key>
+            <string>#aaaaaa</string>
+        </dict>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>Markdown separator</string>
+        <key>scope</key>
+        <string>markup.raw.block.markdown</string>
+        <key>settings</key>
+        <dict>
+            <key>foreground</key>
+            <string>#555555</string>
+        </dict>
+    </dict>
 	</array>
 </dict>
 </plist>
