@@ -542,6 +542,8 @@
         <string>markup.raw.block.markdown</string>
         <key>settings</key>
         <dict>
+            <key>background</key>
+            <string>#E8E8E8</string>
             <key>foreground</key>
             <string>#555555</string>
         </dict>
