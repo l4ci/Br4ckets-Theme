@@ -30,6 +30,7 @@ A Sublime Text 2/3 Theme inspired by the [Brackets](http://brackets.io/) Editor 
 * Redcar (Uses TextMate Themes)
 * E TextEditor (Uses TextMate Themes)
 
+
 ## Language Support
 The theme has been designed to be language independent and should look great with any language. 
 However, if you find this isn't the case, just send me some sample code and I'll try to fix it!
