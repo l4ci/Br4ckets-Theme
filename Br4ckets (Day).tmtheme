@@ -339,6 +339,43 @@
 		<!-- DIFF Files -->
 		<dict>
 			<key>name</key>
+			<string>DIFF foreground</string>
+			<key>scope</key>
+			<string>markup.inserted.diff, markup.deleted.diff, meta.diff.header.to-file, meta.diff.header.from-file</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#414141</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>DIFF Header</string>
+			<key>scope</key>
+			<string>meta.diff, meta.diff.header</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#446fbd</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Diff range</string>
+			<key>scope</key>
+			<string>meta.diff.range</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>foreground</key>
+				<string>#d33682</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>DIFF Deleted</string>
 			<key>scope</key>
 			<string>markup.deleted</string>
@@ -350,6 +387,32 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>DIFF Deleted Header</string>
+			<key>scope</key>
+			<string>meta.diff.header.from-file</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#d33682</string>
+				<key>foreground</key>
+				<string>#ffffff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>DIFF Inserted Header</string>
+			<key>scope</key>
+			<string>meta.diff.header.to-file</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#738d00</string>
+				<key>foreground</key>
+				<string>#ffffff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>DIFF Inserted</string>
 			<key>scope</key>
 			<string>markup.inserted</string>
@@ -357,6 +420,17 @@
 			<dict>
 				<key>foreground</key>
 				<string>#738d00</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>DIFF Changed</string>
+			<key>scope</key>
+			<string>markup.changed</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#446fbd</string>
 			</dict>
 		</dict>
 		<!-- Markdown -->
